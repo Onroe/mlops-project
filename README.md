@@ -4,7 +4,7 @@
 
 MLOps  practice project  from collecting requirements, model design, deployment and monitoring.
 
-[From this tutorial](https://github.com/DataTalksClub/mlops-zoomcamp))
+ [ Source from this tutorial](https://github.com/DataTalksClub/mlops-zoomcamp))
 
 
 ### Pre-requisites
@@ -13,6 +13,7 @@ MLOps  practice project  from collecting requirements, model design, deployment 
 * Python
 * Docker
 * MLflow
+* Prefect
 
 
 
@@ -31,5 +32,13 @@ MLOps  practice project  from collecting requirements, model design, deployment 
 * Track experiments with MLflow
 * Saving and loading models versions with MLflow
 * Model registry
+
+
+### [3: Orchestration
+
+* Workflow orchestration
+* Prefect 
+* Turn notebook to pipeline using prefect
+
 
 
