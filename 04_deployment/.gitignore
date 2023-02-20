@@ -1,0 +1,17 @@
+data/
+.ipynb_checkpoints
+.bin
+*.db
+*/__pycache__/
+*.parquet
+*.html
+*.csv
+
+.venv
+venv
+.idea
+**/artifacts/
+**/models/
+
+mlruns/
+output/
