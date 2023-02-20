@@ -34,18 +34,18 @@ MLOps  practice project  from collecting requirements, model design, deployment 
 * Model registry
 
 
-### [3:Orchestration.]
+### [3:Orchestration.](03_orchestration)
 
 * Workflow orchestration
 * Prefect 
 * Turn notebook to pipeline using prefect
 
-### [4: Deployment.]
-* Online Deployment
-   Web service deployment with Flask and Docker
-   Web service deployment with Flask and Docker. Model sourced from registry(MLflow)
-* Offline Deployemt
-   Batch Processing with Prefect
+### [4: Deployment.](04_Deployment)
+* Online Deployment.
+  - Web service deployment with Flask and Docker
+  - Web service deployment with Flask and Docker. Model sourced from registry(MLflow)
+* Offline Deployment
+  - Batch Processing with Prefect
 
 
 
