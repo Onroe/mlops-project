@@ -40,24 +40,24 @@ MLOps  practice project  from collecting requirements, model design, deployment 
 #### Start MLFlow server to track experiments.
 
 ````
-```
+
 mlflow ui --backend-store-uri sqlite:///mlflow.db
-```
+
 ````
 
 ### [3:Orchestration.](03_orchestration)
 
 * Workflow orchestration. (model-training.ipynb)
 ````
-```
+
 $ mlflow ui --backend-store-uri sqlite:///mlflow.db
-```
+
 ````
 * Prefect. (prefect_deploy.ipynb, prefect_flow.ipynb)
 ````
-```
+
 $ prefect orion start
-```
+
 ````
 * Turn notebook to pipeline using prefect.(work-queue.py.ipynb)
 
@@ -65,45 +65,41 @@ $ prefect orion start
 * Online Deployment.
   - Web service deployment with Flask and Docker
 ````
-```
+
 $ cd web-service. 
 $ python predict.py
 $ python test.py
-```
+
 ````
     
   - Web service deployment with Flask and Docker. Model sourced from registry(MLflow)
 ````
-```
 $ cd web-service-webflow 
 $ python predict.py
 $ python test.py
-```
+
 ````
 * Offline Deployment
   - Batch Processing with Prefect
 ````
-```
 $ cd batch 
 $ python predict.py
 $ python test.py
 mlflow ui --backend-store-uri sqlite:///mlflow.db
-```
+
 ````
   
 ### [5: Monitoring.](05_model monitoring)
 * Create prediction service
 ````
-```
 $ cd prediction-service 
 $ python app.py
 $ python test.py
 
-```
+
 ````
 * Batch monitoring using Prefect, MongoDB and Evidently
 ````
-```
 $ cd prediction-service 
 $ python app.py
  
@@ -116,7 +112,6 @@ $ python send_data.py # monitor datasets as they are sent to prediction service
 
 $ prefect orion start  # prefect server
 
-```
 ````
 
 
