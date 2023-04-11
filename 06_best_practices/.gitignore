@@ -1,0 +1,19 @@
+data/
+.ipynb_checkpoints
+.bin
+*.db
+*/__pycache__/
+*.parquet
+*.html
+*.csv
+*. datasets
+.green_tripdata_2022-01.parquet
+
+.venv
+venv
+.idea
+**/artifacts/
+**/models/
+
+mlruns/
+output/
