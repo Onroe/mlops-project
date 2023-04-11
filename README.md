@@ -63,7 +63,7 @@ $ prefect orion start
 
 ### [4: Deployment.](04_model deployment)
 * Online Deployment.
-  - Web service deployment with Flask and Docker
+   - Web service deployment with Flask and Docker
 ````
 
 $ cd web-service. 
@@ -72,7 +72,7 @@ $ python test.py
 
 ````
     
-  - Web service deployment with Flask and Docker. Model sourced from registry(MLflow)
+   - Web service deployment with Flask and Docker. Model sourced from registry(MLflow)
 ````
 $ cd web-service-webflow 
 $ python predict.py
@@ -114,4 +114,11 @@ $ prefect orion start  # prefect server
 
 ````
 
+### [6: Best Practices.](06_best practices)
+
+````
+* Unit testing
+````
+$ cd unit-test-pytest 
+$ pytest
 
