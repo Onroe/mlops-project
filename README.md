@@ -117,8 +117,9 @@ $ prefect orion start  # prefect server
 ### [6:Best Practices](06_best_practices)
 
 ````
-* Unit testing
+ * Unit testing
 ````
 $ cd unit-test-pytest 
 $ pytest
 
+```
