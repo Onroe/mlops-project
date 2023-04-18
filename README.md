@@ -45,7 +45,7 @@ mlflow ui --backend-store-uri sqlite:///mlflow.db
 
 ````
 
-### [3:Orchestration.](03_orchestration)
+### [3:Orchestration](03_orchestration)
 
 * Workflow orchestration. (model-training.ipynb)
 ````
@@ -61,7 +61,7 @@ $ prefect orion start
 ````
 * Turn notebook to pipeline using prefect.(work-queue.py.ipynb)
 
-### [4: Deployment.](04_model deployment)
+### [4:Deployment](04_deployment)
 * Online Deployment.
    - Web service deployment with Flask and Docker
 ````
@@ -89,7 +89,7 @@ mlflow ui --backend-store-uri sqlite:///mlflow.db
 
 ````
   
-### [5: Monitoring.](05_model monitoring)
+### [5:Monitoring](05_monitoring)
 * Create prediction service
 ````
 $ cd prediction-service 
@@ -114,11 +114,10 @@ $ prefect orion start  # prefect server
 
 ````
 
-### [6: Best Practices.](06_best practices)
-
-````
-* Unit testing
+### [6:Best Practices](06_best_practices)
+ * Unit testing
 ````
 $ cd unit-test-pytest 
 $ pytest
 
+```
